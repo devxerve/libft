@@ -6,11 +6,11 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/23 15:02:41 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 17:27:16 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/09/23 17:53:41 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	isascii(int c)
+int	ft_isascii(int c)
 {
 	if ((c >= 00) && (c <= 127))
 		return (1024);
