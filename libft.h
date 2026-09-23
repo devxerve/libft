@@ -6,11 +6,12 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 15:02:31 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/09/23 17:30:28 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 
 int				ft_strncmp(char *s1, char *s2, unsigned int n);
@@ -36,3 +37,5 @@ int				ft_isalpha(int c);
 int				isalnum(int c);
 
 int				isascii(int c);
+
+void			*memset(void *s, int c, size_t n);
