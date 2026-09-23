@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 18:23:25 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/09/23 19:04:36 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,5 @@ void			*ft_memset(void *s, int c, size_t n);
 void			*ft_bzero(void *s, size_t n);
 
 void			*memcpy(void *dest, const void *src, size_t n);
+
+void			*memmove(void *dest, const void *src, size_t n);
