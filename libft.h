@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/22 21:36:55 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/09/23 15:02:31 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,5 @@ int				ft_isdigit(int c);
 int				ft_isalpha(int c);
 
 int				isalnum(int c);
+
+int				isascii(int c);
