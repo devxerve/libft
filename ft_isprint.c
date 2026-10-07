@@ -6,13 +6,11 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/23 15:15:54 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 17:53:51 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/07 17:19:12 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isprint(int c)
 {
-	if ((c >= 32) && (c <= 126))
-		return (1024);
-	return (0);
+	return ((c >= 32) && (c <= 126));
 }

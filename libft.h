@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/10/07 17:09:07 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/07 17:10:01 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,4 +59,3 @@ size_t			ft_strlcpy(char *dst, const char *src, size_t size);
 char			*ft_strchr(const char *s, int c);
 
 char			*ft_strrchr(const char *s, int c);
-

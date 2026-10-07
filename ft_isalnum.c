@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 12:47:37 by jcervera          #+#    #+#             */
-/*   Updated: 2026/10/07 12:47:38 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/07 17:17:33 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_isalnum(int c)
 {
-	return ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z') || (c >= 'A'
-			&& c <= 'Z'));
+	return ((ft_isdigit(c)) || ft_isalpha(c));
 }
