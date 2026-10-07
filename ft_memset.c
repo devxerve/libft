@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/23 17:29:51 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 17:53:56 by jcervera         ###   ########.fr       */
+/*   Created: 2026/10/07 12:42:32 by jcervera          #+#    #+#             */
+/*   Updated: 2026/10/07 12:42:32 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memset(void *s, int c, size_t n)
 {
-	int				i;
 	unsigned char	*ptr;
+	size_t			i;
 
 	ptr = (unsigned char *)s;
 	i = 0;

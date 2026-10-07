@@ -5,19 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 20:43:23 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/22 21:04:06 by jcervera         ###   ########.fr       */
+/*   Created: 2026/10/07 12:44:04 by jcervera          #+#    #+#             */
+/*   Updated: 2026/10/07 12:44:05 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str[i])
 		i++;
 	return (i);
 }

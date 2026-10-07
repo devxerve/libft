@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/23 17:54:43 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 17:58:44 by jcervera         ###   ########.fr       */
+/*   Created: 2026/10/07 12:39:02 by jcervera          #+#    #+#             */
+/*   Updated: 2026/10/07 12:39:03 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	int				i;
 	unsigned char	*ptr;
+	size_t			i;
 
+	ptr = (unsigned char *)s;
 	i = 0;
-	*ptr = (unsigned char *)s;
 	while (i < n)
 	{
-		ptr[i] = '\0';
+		ptr[i] = 0;
 		i++;
 	}
 }

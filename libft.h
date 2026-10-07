@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/23 19:04:36 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/07 13:48:55 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,9 @@ int				ft_strncmp(char *s1, char *s2, unsigned int n);
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size);
 
-int				ft_strlen(char *str);
+size_t			ft_strlen(const char *str);
 
-int				ft_atoi(char *str);
+int				ft_atoi(const char *str);
 
 char			*ft_strdup(char *src);
 
@@ -38,10 +38,22 @@ int				ft_isalnum(int c);
 
 int				ft_isascii(int c);
 
+int				ft_isprint(int c);
+
+int				ft_toupper(int c);
+
+int				ft_tolower(int c);
+
 void			*ft_memset(void *s, int c, size_t n);
 
-void			*ft_bzero(void *s, size_t n);
+void			ft_bzero(void *s, size_t n);
 
-void			*memcpy(void *dest, const void *src, size_t n);
+void			*ft_memcpy(void *dest, const void *src, size_t n);
 
-void			*memmove(void *dest, const void *src, size_t n);
+void			*ft_memmove(void *dest, const void *src, size_t n);
+
+size_t			ft_strlcpy(char *dst, const char *src, size_t size);
+
+char			*ft_strchr(const char *s, int c);
+
+char			*ft_strrchr(const char *s, int c);

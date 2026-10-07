@@ -5,36 +5,32 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/22 20:43:14 by jcervera          #+#    #+#             */
-/*   Updated: 2026/09/22 21:04:18 by jcervera         ###   ########.fr       */
+/*   Created: 2026/10/07 12:46:50 by jcervera          #+#    #+#             */
+/*   Updated: 2026/10/07 12:46:51 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
-	int	i;
-	int	minus;
+	int	sign;
 	int	result;
 
-	i = 0;
-	minus = 0;
+	sign = 1;
 	result = 0;
-	while (str[i] == ' ' || (str[i] >= 9 && str[i] <= 13))
-		i++;
-	while (str[i] == '-' || str[i] == '+')
+	while (*str == ' ' || (*str >= 9 && *str <= 13))
+		str++;
+	if (*str == '+' || *str == '-')
 	{
-		if (str[i] == '-')
-			minus++;
-		i++;
+		if (*str == '-')
+			sign = -1;
+		str++;
 	}
-	while (str[i] >= '0' && str[i] <= '9')
+	while (*str >= '0' && *str <= '9')
 	{
-		result = result * 10 + (str[i] - '0');
-		i++;
+		result = result * 10 + (*str - '0');
+		str++;
 	}
-	if (minus % 2 != 0)
-		return (result * -1);
-	return (result);
+	return (result * sign);
 }
