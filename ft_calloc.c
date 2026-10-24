@@ -6,7 +6,7 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 18:45:39 by jcervera          #+#    #+#             */
-/*   Updated: 2026/10/07 19:01:58 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/24 04:04:36 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	void	*result;
 
 	if (size == 0 || nmemb == 0)
-		return (malloc(1));
+		return (malloc(0));
 	if (nmemb > __SIZE_MAX__ / size)
 		return (NULL);
 	space = nmemb * size;
