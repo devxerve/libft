@@ -143,7 +143,7 @@ The following resources were useful for understanding the expected behavior of s
 - **C standard library documentation:** [https://en.cppreference.com/w/c](https://en.cppreference.com/w/c)
 - **Linux manual pages:** [https://man7.org/linux/man-pages/](https://man7.org/linux/man-pages/)
 - **42 School:** [https://42.fr/](https://42.fr/)
-- **Paco testing suite for 42** [https://github.com/sanlega/paco.git](https://github.com/sanlega/paco.git) (Credits to [sanlega]\([https://github.com/sanlega](https://github.com/sanlega)))
+- **Paco testing suite for 42** [https://github.com/sanlega/paco.git](https://github.com/sanlega/paco.git) Credits to [https://github.com/sanlega](https://github.com/sanlega)
 
 ### Artificial Intelligence Usage
 
