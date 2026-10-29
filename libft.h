@@ -6,12 +6,11 @@
 /*   By: jcervera <jcervera@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/21 10:45:16 by jcervera          #+#    #+#             */
-/*   Updated: 2026/10/24 04:05:55 by jcervera         ###   ########.fr       */
+/*   Updated: 2026/10/29 18:03:42 by jcervera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
 
 typedef struct s_list
